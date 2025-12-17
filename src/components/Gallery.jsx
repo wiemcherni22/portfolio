@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
 
-import securinetsImg from '../images/photo-securinets.jpg';
-import stage1Img from '../images/photo-stage-1.jpg';
-import stage2Img from '../images/photo-stage-2.jpg';
-import gdgImg from '../images/photo-gdg.jpg';
-import youngImg from '../images/photo-young.jpg';
+import securinetsImg from '../images/photo-securinets.jpg.jpg';
+import stage1Img from '../images/photo-stage-1.jpg.jpg';
+import stage2Img from '../images/photo-stage-2.jpg.jpg';
+import gdgImg from '../images/photo-gdg.jpg.jpg';
+import youngImg from '../images/photo-young.jpg.jpg';
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState(null);
